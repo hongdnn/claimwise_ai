@@ -49,12 +49,20 @@ This manual process can be slow, inconsistent, and prone to fraud. ClaimWise AI 
 
 ## 🚀 Quick Start
 
-1. Clone the repository
-2. Set up Google Cloud credentials
-3. Configure BigQuery and Cloud Storage
-4. Run the Kaggle notebook
-5. View results in BigQuery dashboard
+### Prerequisites
 
+1. **Download raw data**: Get historical claim photos from [Google Drive](https://drive.google.com/drive/folders/1byERaspNHtO7RVL37qY3ytgJjgMtBBdl?usp=sharing) and upload to your Drive
+2. **Create BigQuery dataset**: Set up `claimwise_db` dataset in BigQuery
+3. **Import claims table**: Create `claims` table using `claims_metadata.xlsx` from BigQuery AI Team/Dataset folder
+
+### Setup Steps
+
+1. **Create GCS bucket**: Set up `claim_medias` bucket in Google Cloud Storage
+2. **Upload photos**: Load claim photos into the GCS bucket
+3. **Create external table**: Set up `claim_medias` external table in BigQuery with object URIs
+4. **Build embedding models**: Create text embedding model for descriptions and multimodal model for photos
+5. **Extend claims table**: Add `text_embedding` column to enable semantic similarity search
+6. **Run analysis**: Execute the Colab notebook to process claims and detect fraud
 ---
 
 ## 🔗 Project Links
