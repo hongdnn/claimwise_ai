@@ -31,7 +31,7 @@ This manual process can be slow, inconsistent, and prone to fraud. ClaimWise AI 
 * **Cloud Platform**: Google Cloud Platform (GCP)
 * **Data Storage**: Google Cloud Storage & BigQuery
 * **Core Libraries**: Python, Pandas, Matplotlib/Seaborn
-* **AI Services**: Google Vision API, Google Generative AI (Gemini), BigQuery ML
+* **AI Services**: Google Generative AI (Gemini), BigQuery ML
 * **Key Techniques**: Exploratory Data Analysis (EDA), Multimodal Feature Engineering, Similarity Search (Cosine Distance), Classification Modeling, Feature Importance, Prompt Engineering
 
 ---
