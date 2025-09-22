@@ -21,8 +21,7 @@ This manual process can be slow, inconsistent, and prone to fraud. ClaimWise AI 
 
 * **Semantic Claim Retrieval**: BigQuery Vector Search on text embeddings to retrieve similar past cases for faster, more accurate cost estimation
 * **Multimodal Fraud Detection**: AI embeddings on crash photos stored in Cloud Storage to detect anomalies and identify potential fraud  
-* **Explainable AI Handling**: Standardized AI-driven captions and embeddings ensure consistent, transparent, and auditable claim decisions
-* **Automated Fraud Flagging**: Updates fraud status automatically for high-risk customers
+* **Automated Fraud Flagging**: Updates fraud status automatically from duplicated images from historical claims
 * **Interactive Analytics**: Rich visualizations and comparative analysis tools
 
 ---
